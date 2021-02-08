@@ -8,12 +8,15 @@ public class Car {
   double milesDriven;
   
   
-  public Car(double efficiency, double mileage, double tankCap){
+  public Car(double fuel_efficiency, double mileage, double fuel_tank_capacity){
+    this.fuel_efficiency = fuel_efficiency;
+    this.mileage = mileage;
+    this.fuel_tank_capacity = fuel_tank_capacity;
     fuel_level = 0;
   }
 
   public void drive(double milesDriven){
-    fuel_level = (fuel_efficiency * fuel_tank_capacity) - milesDriven;
+    fuel_level = (this.fuel_efficiency * this.fuel_tank_capacity) - milesDriven;
    
   }
 
@@ -25,11 +28,12 @@ public class Car {
     fuel_level = fuel_level + gallons;
   }
 
-  public double displayCar(){
-    getFuelLevel();
-    return fuel_efficiency;
-    return fuel_tank_capacity;
-    return mileage + milesDriven;
+  public void displayCar(){
+    System.out.println("fuel level: "+getFuelLevel());
+    System.out.println("fuel efficiency: "+this.fuel_efficiency);
+    System.out.println("fuel tank capacity: "+this.fuel_tank_capacity);
+    System.out.println("mileage: "+(mileage + milesDriven));
+
   }
 
 }
