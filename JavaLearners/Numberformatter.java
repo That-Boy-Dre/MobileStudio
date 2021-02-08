@@ -7,7 +7,7 @@ public class Numberformatter {
         double crabs = 543.2773;
         double squid = 3213.31223;
         NumberFormat boo = NumberFormat.getCurrencyInstance();
-        NumberFormat geen = NumberFormat.getCompactNumberInstance();
+        NumberFormat geen = NumberFormat.getNumberInstance();
 
         System.out.println(boo.format(crabs));
         System.out.println(geen.format(squid));
