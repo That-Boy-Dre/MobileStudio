@@ -15,11 +15,11 @@ public class Car {
     fuel_level = 0;
   }
 
-  public void addGas(int gallons){
+  public void addGas(int gallons){ //Sets fuel amount
     fuel_level = fuel_level + gallons;
   }
   
-  public static double getFuelLevel(){
+  public static double getFuelLevel(){ //gets fuel amount
     return fuel_level;
   }
   
