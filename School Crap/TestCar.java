@@ -17,8 +17,20 @@ public class TestCar {
 
     System.out.println("Initiliazing car...\n");
 
-    Car vehicle = new Car()
-    
+    Car vehicle = new Car(FE,M,FTC);
+
+    while(true){
+      System.out.println("Car Menu");
+      System.out.println("1 - Add gas");
+      System.out.println("2 - Drive");
+      System.out.println("3 - Display car info");
+      System.out.println("4 - Exit");
+
+      System.out.print("\nEnter your choice: ");
+      int choice = scan.nextInt();
+  
+    }
+
   }
 }
 
