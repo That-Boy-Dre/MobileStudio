@@ -1,4 +1,4 @@
-
+import java.text.DecimalFormat;
 public class Car {
 
   int fuel_efficiency;
@@ -7,6 +7,7 @@ public class Car {
   static double fuel_level;
   int milesDriven;
   
+  DecimalFormat fm = new DecimalFormat("0.00");
   
   public Car(int fuel_efficiency, int mileage, double fuel_tank_capacity){
     this.fuel_efficiency = fuel_efficiency;
@@ -15,7 +16,7 @@ public class Car {
     fuel_level = 0;
   }
 
-  public void addGas(int gallons){ //Sets fuel amount
+  public void addGas(double gallons){ //Sets fuel amount
     fuel_level = fuel_level + gallons;
   }
   
@@ -30,12 +31,12 @@ public class Car {
   }
 
   public void displayCar(){
-    System.out.println("fuel level: "+getFuelLevel()+" gallons");
+    String fuel = (fm.format(getFuelLevel()));
+    System.out.println("fuel level: "+fuel + " gallons");
     System.out.println("fuel efficiency: "+fuel_efficiency+" mpg");
     System.out.println("fuel tank capacity: "+fuel_tank_capacity+" gallons");
-    System.out.println("mileage: "+mileage);
+    System.out.println("mileage: "+mileage+" miles");
 
   }
 
 }
-
