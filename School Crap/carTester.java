@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class TestCar {
+public class carTester {
   
 
   public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class TestCar {
     System.out.print("Enter your vehicle's manufactured year: ");
     int Y = scan.nextInt();
 
-    System.out.println("Initiliazing car...\n");
+    System.out.println("Initializing car...\n");
 
     Car vehicle = new Car(FE,M,FTC,C,B,Y); //vehicle object created for program to use
 

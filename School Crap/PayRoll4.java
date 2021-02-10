@@ -89,7 +89,8 @@ public class PayRoll4{ //PayRoll class
                   
     } // end of while loop
 
-
+    in.close();
+    open.close();
 
 	}// main method
 }// Payroll class
