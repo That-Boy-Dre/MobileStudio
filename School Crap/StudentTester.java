@@ -38,7 +38,7 @@ public class StudentTester {
 		System.out.println("GPA: "+ x.getGPA());
 		
 		
-		
+		in.close();
 	}
 
 }
