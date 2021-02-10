@@ -14,10 +14,16 @@ public class TestCar {
     int M = scan.nextInt();
     System.out.print("Enter fuel tank capacity (in gallons): ");
     double FTC = scan.nextDouble();
+    System.out.print("Enter your vehicle's color: ");
+    String C = scan.next();
+    System.out.print("Enter your vehicle's brand: ");
+    String B = scan.next();
+    System.out.print("Enter your vehicle's manufactured year: ");
+    int Y = scan.nextInt();
 
     System.out.println("Initiliazing car...\n");
 
-    Car vehicle = new Car(FE,M,FTC); //vehicle object created for program to use
+    Car vehicle = new Car(FE,M,FTC,C,B,Y); //vehicle object created for program to use
 
     while(true){ //Start of while loop
           System.out.println("\nCar Menu");
