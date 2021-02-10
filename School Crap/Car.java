@@ -26,14 +26,18 @@ public class Car {
   }
 
   public void addGas(double gallons){ //Sets fuel amount
-      while(true){
-          if(gallons > fuel_tank_capacity || gallons < 0){
-            System.out.println("Invalid input, that amount of gas excedes the fuel tank's capacity");
-            System.exit(0);
-              } else if(gallons >= 0 || gallons <= fuel_tank_capacity){
-                fuel_level = fuel_level + gallons;
-              }
-          }
+    boolean repeat = true;
+      while(repeat){
+        if(gallons >= 0 && gallons <= fuel_tank_capacity){
+          fuel_level = fuel_level + gallons;
+          repeat = false;
+        } else{
+          System.out.println("That amount of gasoline is invalid for the cpacity of the fuel tank,");
+          System.out.print("please re-enter the amount you would wish to enter: ");
+          double fuel = scan.nextDouble();
+          gallons = fuel;
+        }
+      }
   }
   
   public static double getFuelLevel(){ //gets fuel amount
@@ -45,6 +49,7 @@ public class Car {
     fuel_level = fuel_level - (milesDriven / fuel_efficiency);
     mileage = mileage + milesDriven;
   }
+
 
   public void displayCar(){
     String fuel = (fm.format(getFuelLevel()));
