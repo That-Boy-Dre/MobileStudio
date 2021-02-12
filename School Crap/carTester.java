@@ -20,7 +20,7 @@ public class carTester {
     String B = scan.next();
     System.out.print("Enter your vehicle's manufactured year: ");
     int Y = scan.nextInt();
-
+    
     System.out.println("Initializing car...\n");
 
     Car vehicle = new Car(FE,M,FTC,C,B,Y); //vehicle object created for program to use
