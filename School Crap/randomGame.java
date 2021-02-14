@@ -20,42 +20,42 @@ public class randomGame {
     
     while(begin){// while loop
 
-                        int range = (int)((Math.random()*(high - low + 1))+ low);
+                int range = (int)((Math.random()*(high - low + 1))+ low);
 
-                        System.out.println("\nI\'m thinking of a number between 1 and 10.");
-                        System.out.println("What do you think it is?");
-                        answer = input.nextInt();
+                System.out.println("\nI\'m thinking of a number between 1 and 10.");
+                System.out.println("What do you think it is?");
+                answer = input.nextInt();
 
-                        if(answer >= 1 && answer <= 10){// start of outter if
-                      
-                            if(answer == range){// start of inner if
-                              System.out.println("Your right!");
-                          
-                              } else{
-                            System.out.println("YOU\'RE WRONG!!! The number was "+range);
-                          }// end of inner if
-                        } else{
-                        System.out.println("I said, between 1 and 10.");
-                      }// end of outter if
+                if(answer >= 1 && answer <= 10){// start of outter if
+              
+                    if(answer == range){// start of inner if
+                      System.out.println("Your right!");
+                  
+                      } else{
+                    System.out.println("YOU\'RE WRONG!!! The number was "+range);
+                  }// end of inner if
+                } else{
+                System.out.println("I said, between 1 and 10.");
+              }// end of outter if
 
-                      
-                      // This code is brilliant because it's able to keep asking 
-                      // for a correct input option no matter how many times you enter the wrong one
-                      do{
-                          System.out.println("\nPlay again? (Y or N)");
-                          redo = input.next();
-                          validInput = true;
+              
+              // This code is brilliant because it's able to keep asking 
+              // for a correct input option no matter how many times you enter the wrong one
+              do{
+                  System.out.println("\nPlay again? (Y or N)");
+                  redo = input.next();
+                  validInput = true;
 
-                          if(redo.equalsIgnoreCase("Y")||redo.equalsIgnoreCase("N")){
-                              if(redo.equalsIgnoreCase("Y")){
-                                begin = true;
-                              }else if(redo.equalsIgnoreCase("N")){
-                                begin = false;
-                              }
-                          }else{
-                              validInput = false; 
-                            }   
-                      } while(!validInput); 
+                  if(redo.equalsIgnoreCase("Y")||redo.equalsIgnoreCase("N")){
+                      if(redo.equalsIgnoreCase("Y")){
+                        begin = true;
+                      }else if(redo.equalsIgnoreCase("N")){
+                        begin = false;
+                      }
+                  }else{
+                      validInput = false; 
+                    }   
+              } while(!validInput); 
 
     }// while loop 
     
