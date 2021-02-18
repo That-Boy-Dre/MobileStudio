@@ -24,7 +24,7 @@ public class Q2b {
         sum = sum + nums;
         average = sum / digits; 
     }
-    input.close(); // The Scanner is closed at the end of the loop to avoid imature disruptions for the code 
+    input.close(); // The Scanner is closed at the end of the loop to avoid immature disruptions for the code 
 
     
    System.out.print("\nThe sum of all given integers: ");

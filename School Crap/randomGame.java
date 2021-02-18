@@ -26,7 +26,7 @@ public class randomGame {
                 System.out.println("What do you think it is?");
                 answer = input.nextInt();
 
-                if(answer >= 1 && answer <= 10){// start of outter if
+                if(answer >= 1 && answer <= 10){// start of outer if
               
                     if(answer == range){// start of inner if
                       System.out.println("Your right!");
@@ -36,7 +36,7 @@ public class randomGame {
                   }// end of inner if
                 } else{
                 System.out.println("I said, between 1 and 10.");
-              }// end of outter if
+              }// end of outer if
 
               
               // This code is brilliant because it's able to keep asking 

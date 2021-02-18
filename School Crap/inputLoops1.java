@@ -18,7 +18,7 @@ public class inputLoops1 {
   int count = -1;
 
   do{
-      x = input.next(); //The .next input will recognize spaces as seperate words 
+      x = input.next(); //The .next input will recognize spaces as separate words 
       count++;         //meanwhile the .nextLine input will only recognizes any spaced input as 1 word
 
       if(x.equals("finished")){

@@ -20,7 +20,7 @@ public class DiceRoll {
 
 
 
-//This version uses a slef created random int method
+//This version uses a self created random int method
 
 
 /*

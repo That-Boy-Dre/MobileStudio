@@ -25,14 +25,14 @@ public class Car {
     this.year = year;
   } //Car constructor
 
-  public void addGas(double gallons){ //Begining of addGas method
+  public void addGas(double gallons){ //Beginning of addGas method
   boolean repeat1 = true;
           while(repeat1){
             if(gallons >= 0 && gallons <= fuel_tank_capacity){
               fuel_level = fuel_level + gallons;
               repeat1 = false;
             } else{
-              System.out.println("That amount of gasoline is invalid for the cpacity of the fuel tank,");
+              System.out.println("That amount of gasoline is invalid for the capacity of the fuel tank,");
               System.out.print("please re-enter the amount you would wish to enter: ");
               double fuel = scan.nextDouble();
               gallons = fuel;
@@ -40,12 +40,12 @@ public class Car {
           }
   } //End of addGas method
   
-  public static double getFuelLevel(){ //Begining of getFuelLevel method
+  public static double getFuelLevel(){ //Beginning of getFuelLevel method
     return fuel_level;
   } //End of getFuelLevel method
   
   
-  public void drive(double milesDriven){ //Begining of drive method
+  public void drive(double milesDriven){ //Beginning of drive method
   boolean repeat2 = true;
         while(repeat2){
           if(milesDriven >= 0 && milesDriven <= (fuel_efficiency * fuel_tank_capacity)){
@@ -64,7 +64,7 @@ public class Car {
 
 
 
-  public void displayCar(){ //Begining of displayCar method
+  public void displayCar(){ //Beginning of displayCar method
     String fuel = (fm.format(getFuelLevel()));
     System.out.println("fuel level: "+fuel + " gallons");
     System.out.println("fuel efficiency: "+fuel_efficiency+" mpg");

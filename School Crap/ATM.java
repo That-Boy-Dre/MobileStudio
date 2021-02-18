@@ -26,14 +26,14 @@ public class ATM {
           System.out.println("Invalid pin, please re-enter.");
 
           if(x >= 3){
-            System.out.println("Too many failed attempts, the program has now eneded");
+            System.out.println("Too many failed attempts, the program has now ended");
             break;
           }
         }
     }
     
     // ==========================================================================The menu loop begins here.
-    while(codeNotValid == false){ //Begining of while loop
+    while(codeNotValid == false){ //Beginning of while loop
 
       System.out.println("\nPlease select from the following options:");
       System.out.println("1 – View Balance ");
@@ -44,7 +44,7 @@ public class ATM {
       int choice = input.nextInt();
 
 
-      switch (choice) { //Begining of switch statement
+      switch (choice) { //Beginning of switch statement
         case 1:
              System.out.println("your balance is "+DondresAccount.getBalance());
              break;
@@ -68,7 +68,7 @@ public class ATM {
               break;
     } //End of switch statement
 
-  } //End ofwhile loop 
+  } //End of while loop 
 
   
   }
