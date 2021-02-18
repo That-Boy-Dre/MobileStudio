@@ -20,7 +20,7 @@ public class EndOfFile {
     
     Scanner scan = new Scanner(System.in);
     
-    for(int i = 1; scan.hasNext() == true; i++){
+    for(int i = 1; scan.hasNext() == true; i++){ //scan.hasNext() == true makes a loop to keep asking for user input
       System.out.println(i+" "+scan.nextLine());
     }
 

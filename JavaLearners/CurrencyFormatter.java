@@ -16,10 +16,16 @@ public class CurrencyFormatter {
   Scanner scan = new Scanner(System.in);
   //System.out.print("Enter your intended amount: ");
   double payment = scan.nextDouble();
-   
+
+  /*
+  If there isn't already a predefined country Locale for you then you'll have to 
+  look up the country's code in the IANA Language Subtag Registry
+  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+  or just simply google it
+  */
 
   NumberFormat u = NumberFormat.getCurrencyInstance(Locale.US);
-  NumberFormat i = NumberFormat.getCurrencyInstance(new Locale("en", "in")); //This is required to make a locale if one doesn't already exist
+  NumberFormat i = NumberFormat.getCurrencyInstance(new Locale("en", "in")); //This is required to look up the correct locale online.
   NumberFormat c = NumberFormat.getCurrencyInstance(Locale.CHINA);
   NumberFormat f = NumberFormat.getCurrencyInstance(Locale.FRANCE);
 
