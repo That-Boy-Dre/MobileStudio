@@ -8,7 +8,7 @@ public class RandomInArray {
         
         int[] squa = {50, 20, 25, 500, 30, 102};
 
-        for(int i = 1; i <= 5; i++){
+        for(int i = 1; i <= 6; i++){
             System.out.println(squa[new Random().nextInt(squa.length)]);
         }
 

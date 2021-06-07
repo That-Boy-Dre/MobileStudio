@@ -94,7 +94,7 @@ public class PayRoll2 {
 
     
     System.out.println("\nPayroll Summary  for Employee ID: "+id);
-    System.out.println("Hours Wokred: "+hW);
+    System.out.println("Hours Worked: "+hW);
     System.out.printf("Hourly Rate: "+"%.2f\n",hR);
     System.out.printf("Gross Pay: "+"%.2f\n",grossPay);
     System.out.printf("Tax Amount: "+"%.2f\n",taxAmount);

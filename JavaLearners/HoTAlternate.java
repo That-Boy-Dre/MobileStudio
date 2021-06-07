@@ -19,7 +19,7 @@ public class HoTAlternate {
 
                         if(game.equalsIgnoreCase("g")){
 
-                        coin = rn.nextInt(3) ; //alternative to the Heads or tails program using the random class instead of the method
+                        coin = rn.nextInt(3) ; //alternative to the Heads or tails program using the random class instead of the Math.Random() method
                         if(coin == 1){
                             HoT = ("HEADS!");
                             System.out.println(coin);

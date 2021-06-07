@@ -1,3 +1,53 @@
+
+
+
+
+
+
+import java.util.Scanner;
+public class HeadsorTails{
+
+
+  public static void main(String[] args) {
+    
+    Scanner scan = new Scanner(System.in);
+
+    while(true){ //start
+
+      System.out.println("Heads or tails? That is the question to be asked here!!!");
+      System.out.println("(Press G to go and S to stop the program)");
+      String ans = scan.next();
+
+      if(ans.equalsIgnoreCase("S")){
+        break;
+      } 
+
+              if(ans.equalsIgnoreCase("g")){
+              int numb = (int)((Math.random() * (2 + 1 - 1)) + 1);
+
+              if(numb == 1){
+                System.out.println("Heads!\n");
+                  } else{
+                    System.out.println("Tails!\n");
+                  }
+              }else{
+                System.out.println("||| Invalid response!!! |||");
+                continue;
+              }
+
+    } //end
+
+    scan.close();
+  }
+}
+
+
+
+
+
+
+/*
+//Old version
 import java.util.Scanner;
 public class HeadsorTails {
 
@@ -34,3 +84,4 @@ public class HeadsorTails {
             
     }
 }
+*/

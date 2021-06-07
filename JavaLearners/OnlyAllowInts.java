@@ -14,8 +14,8 @@ public class OnlyAllowInts {
 
     for(int i = 1; i <= 3; i++){// start of for loop
 
-              while(!scan.hasNextInt()){
-                System.out.println("Invalid input");
+              while(!scan.hasNextInt()){  // code that only allow ints
+                //System.out.println();
                 scan.nextLine();
               }
 

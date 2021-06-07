@@ -1,0 +1,224 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch ATM",
+      "request": "launch",
+      "mainClass": "ATM",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch BankAccountTester",
+      "request": "launch",
+      "mainClass": "BankAccountTester",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch DiceRoll",
+      "request": "launch",
+      "mainClass": "DiceRoll",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch GUI",
+      "request": "launch",
+      "mainClass": "GUI",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch HeadsorTails",
+      "request": "launch",
+      "mainClass": "HeadsorTails",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch HoTAlternate",
+      "request": "launch",
+      "mainClass": "HoTAlternate",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch LoopPracticeGradesP1",
+      "request": "launch",
+      "mainClass": "LoopPracticeGradesP1",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch LoopsPracticeGradesP2",
+      "request": "launch",
+      "mainClass": "LoopsPracticeGradesP2",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch MethodsPractice",
+      "request": "launch",
+      "mainClass": "MethodsPractice",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Numberformatter",
+      "request": "launch",
+      "mainClass": "Numberformatter",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch OnlyAllowInts",
+      "request": "launch",
+      "mainClass": "OnlyAllowInts",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch PayRoll",
+      "request": "launch",
+      "mainClass": "PayRoll",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch PayRoll2",
+      "request": "launch",
+      "mainClass": "PayRoll2",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch PayRoll3",
+      "request": "launch",
+      "mainClass": "PayRoll3",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch PayRoll4",
+      "request": "launch",
+      "mainClass": "PayRoll4",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Q1a",
+      "request": "launch",
+      "mainClass": "Q1a",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Q1b",
+      "request": "launch",
+      "mainClass": "Q1b",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Q2a",
+      "request": "launch",
+      "mainClass": "Q2a",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Q2b",
+      "request": "launch",
+      "mainClass": "Q2b",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch RandomInArray",
+      "request": "launch",
+      "mainClass": "RandomInArray",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch StudentTester",
+      "request": "launch",
+      "mainClass": "StudentTester",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch carTester",
+      "request": "launch",
+      "mainClass": "carTester",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch continueTest",
+      "request": "launch",
+      "mainClass": "continueTest",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch inputLoops1",
+      "request": "launch",
+      "mainClass": "inputLoops1",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch inputLoops2",
+      "request": "launch",
+      "mainClass": "inputLoops2",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch looloo",
+      "request": "launch",
+      "mainClass": "looloo",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch numberGame",
+      "request": "launch",
+      "mainClass": "numberGame",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch owen",
+      "request": "launch",
+      "mainClass": "owen",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch randomGame",
+      "request": "launch",
+      "mainClass": "randomGame",
+      "projectName": "MobileStudio_a4a85c36"
+    },
+    {
+      "type": "java",
+      "name": "Launch rounding",
+      "request": "launch",
+      "mainClass": "rounding",
+      "projectName": "MobileStudio_a4a85c36"
+    }
+  ]
+}

@@ -43,6 +43,7 @@ public class ATM {
 
       int choice = input.nextInt();
 
+      
 
       switch (choice) { //Beginning of switch statement
         case 1:
@@ -50,11 +51,21 @@ public class ATM {
              break;
         case 2:
              System.out.println("Enter the amount to deposit:");
+
+                      while(!input.hasNextInt()){ // Code to make sure only integers are accepted
+                        input.nextLine();
+                      }
+
               double amount = input.nextDouble();
               DondresAccount.deposit(amount);
               break;
         case 3:
              System.out.println("Enter the amount to withdraw:");
+
+                        while(!input.hasNextInt()){ // Code to make sure only integers are accepted
+                          input.nextLine();
+                        }
+
               amount = input.nextDouble();
               DondresAccount.withdraw(amount);
               break;

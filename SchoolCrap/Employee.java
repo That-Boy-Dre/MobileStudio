@@ -1,7 +1,7 @@
 
 
   
-public class Employee {//begining of class
+public class Employee {//beginning of class
 
 
   //(Gross Pay)

@@ -1,6 +1,5 @@
 
 
-
 /*
 Rewrite the code in question (4) to use a while loop with a boolean variable to control the loop.
 */
@@ -18,7 +17,7 @@ public class inputLoops2 {
 
     while(true){
 
-      x = input.next(); //The .next input will recognize spaces as seperate words 
+      x = input.next(); //The .next input will recognize spaces as separate words 
       count++;         //meanwhile the .nextLine input will only recognizes any spaced input as 1 word
 
 

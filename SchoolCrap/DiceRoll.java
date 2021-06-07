@@ -1,4 +1,3 @@
-
 public class DiceRoll {
 
   
@@ -11,7 +10,7 @@ public class DiceRoll {
     
 
     for(int i = 1; i <= 20; i++){
-      int ran = (int)((Math.random()*(high-low+1))+ low);
+      int ran = (int)((Math.random()*high - low + 1)) + low;
       System.out.print(ran + " ");
     }
 

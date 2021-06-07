@@ -19,7 +19,7 @@ public class LoopsPracticeGradesP2 {
   while(true){
 
     // if left without a try catch block a NumberFormatException will arise because
-    // what the parseInt method will try to convert wont be a String wriiten in numbers but rather words such as "finish".
+    // what the parseInt method will try to convert wont be a String written in numbers but rather words such as "finish".
 
     try{
     grades = input.next();

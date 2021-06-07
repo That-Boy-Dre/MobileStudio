@@ -11,7 +11,7 @@ public class numberGame {
 
   Scanner input = new Scanner(System.in);
  
-  System.out.println("Guess the number i'm thinking betwen 1 and 10");
+  System.out.println("Guess the number i'm thinking between 1 and 10");
 
   
   int high = 10;
